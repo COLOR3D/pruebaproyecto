@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>85af073b-06c8-4f34-b428-11a343271065</id>
+    <loglevel>INFO</loglevel>
+    <name>github</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "Hola Mundo"</exec>
+      </command>
+    </sequence>
+    <uuid>85af073b-06c8-4f34-b428-11a343271065</uuid>
+  </job>
+</joblist>
