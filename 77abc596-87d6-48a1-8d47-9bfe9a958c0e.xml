@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>Job para probar SCM commiteando y exportando en GitHub</description>
+    <executionEnabled>true</executionEnabled>
+    <id>77abc596-87d6-48a1-8d47-9bfe9a958c0e</id>
+    <loglevel>INFO</loglevel>
+    <name>Test_Job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "Hola Mundo"</exec>
+      </command>
+    </sequence>
+    <uuid>77abc596-87d6-48a1-8d47-9bfe9a958c0e</uuid>
+  </job>
+</joblist>
